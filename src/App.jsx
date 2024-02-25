@@ -1,9 +1,9 @@
-import ButtonTap from "./components/framer-motion/ButtonTap";
+import TransitonType from "./components/framer-motion/TransitonType";
 
 function App() {
   return (
     <>
-      <ButtonTap />
+      <TransitonType />
     </>
   );
 }

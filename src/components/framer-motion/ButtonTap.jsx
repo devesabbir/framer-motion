@@ -4,7 +4,7 @@ export default function ButtonTap() {
   return (
     <div>
       <motion.button
-        className="px-2 py-1 bg-red-500 m-3"
+        className="uppercase font-semibold px-2 py-1 bg-red-500 m-3 text-slate-50 rounded-sm"
         whileTap={{
           scale: 0.4,
           transition: {
@@ -13,6 +13,9 @@ export default function ButtonTap() {
         }}
         whileHover={{
           scale: 0.9,
+          transitionP: {
+            duration: 0.3,
+          },
         }}
       >
         Tap me
