@@ -1,9 +1,9 @@
-import TransitonType from "./components/framer-motion/TransitonType";
+import ScrollReveal from "./components/framer-motion/ScrollReveal";
 
 function App() {
   return (
     <>
-      <TransitonType />
+      <ScrollReveal />
     </>
   );
 }
